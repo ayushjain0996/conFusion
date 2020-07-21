@@ -10,6 +10,13 @@
     min-height: 400px;
 }
 
+/* Same class as previous, except, it does not have a border at the bottom. */
+.row-content-plain{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    min-height: 400 px;
+}
+
 .footer {
     background-color: #B0C4DE;
     margin: 0px auto;
