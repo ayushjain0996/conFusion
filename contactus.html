@@ -2,18 +2,19 @@
 <html lang="en">
 
 <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Ristorante Con Fusion: About Us</title>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!-- Bootstrap CSS -->
+        <!-- build:css css/main.css -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        <link href="css/styles.css" rel="stylesheet">
+        <!-- endbuild -->
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link href="css/styles.css" rel="stylesheet">
     <title>Ristorante Con Fusion: Contact Us</title>
     <link rel = "icon" href="img/chilli.png" 
         type = "image/x-icon"> 
@@ -25,7 +26,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="./index.html"><img src="img/chilli.png" height="30" width="33"></a>
+            <a class="navbar-brand" href="./index.html"><img src="img/chilli.png" height="30" width="33" alt=""></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
@@ -43,7 +44,7 @@
     </nav>
 
     <div id="loginModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg" role="content">
+        <div class="modal-dialog modal-lg" role="contentinfo">
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Login</h4>
@@ -81,7 +82,7 @@
     </div>
 
     <div id="reserveTableModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg" role="content">
+        <div class="modal-dialog modal-lg" role="contentinfo">
             <div class="modal-content">
                 <div class="modal-header">
                     <h2 class="modal-title">Reserve a Table</h2>
@@ -124,10 +125,10 @@
                             <label for="section" class="col-12 col-sm-2 col-form-label">Section</label>
                             <div id="section" class="btn-group btn-group-toggle col-12 col-sm-4" data-toggle="buttons">
                                 <label class="btn btn-success active">
-                                    <input type="radio" name="section" id="nonSmoking" autocomplete="off" checked>Non-Smoking
+                                    <input type="radio" name="section" id="nonSmoking" checked>Non-Smoking
                                 </label>
                                 <label class="btn btn-danger">
-                                    <input type="radio" name="section" id="smoking" autocomplete="off">Smoking
+                                    <input type="radio" name="section" id="smoking">Smoking
                                 </label>
                             </div>
                         </div>
@@ -135,12 +136,10 @@
                         <div class="form-group row">
                             <label for="date" class="col-12 col-sm-2 col-form-label">Date and Time</label>
                             <div class="col-12 col-sm-4">
-                                <input type="date" class="form-control" id="date" name="date"
-                                placeholder="Date">
+                                <input type="date" class="form-control" id="date" name="date">
                             </div>
                             <div class="col-12 col-sm-4">
-                                <input type="time" class="form-control" id="date" name="time"
-                                placeholder="Time">
+                                <input type="time" class="form-control" id="time" name="time">
                             </div>
                         </div>
                         <div class="form-row">
@@ -163,7 +162,7 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <img src="img/conFusionLogo.png" class="img-fluid">
+                    <img src="img/conFusionLogo.png" class="img-fluid" alt="conFusion">
                 </div>
                 <br>
                 <br>
@@ -333,15 +332,18 @@
                 <div class="col-auto">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
-           </div>
+            </div>
         </div>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+
 </body>
 
 </html>
