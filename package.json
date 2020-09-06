@@ -34,6 +34,8 @@
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^1.9.1",
-    "popper.js": "^1.12.9"
+    "popper.js": "^1.12.9",
+    "uglify-js": "^3.10.3",
+    "usemin": "^0.6.0"
   }
 }
